@@ -1,0 +1,14 @@
+@layer base {
+  :root {
+    --primary: #000;
+    --baseBackground: #fff;
+  }
+  :root[data-theme='light'] {
+    --primary: #000;
+    --baseBackground: #fff;
+  }
+  :root[data-theme='dark'] {
+    --primary: #fff;
+    --baseBackground: #000;
+  }
+}
