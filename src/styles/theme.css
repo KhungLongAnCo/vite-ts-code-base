@@ -1,14 +1,16 @@
 @layer base {
   :root {
-    --primary: #000;
+    --primary: #1777ff;
+    --baseText: #000;
+    --baseBorder: #d9d9d9;
     --baseBackground: #fff;
   }
   :root[data-theme='light'] {
-    --primary: #000;
+    --baseText: #000;
     --baseBackground: #fff;
   }
   :root[data-theme='dark'] {
-    --primary: #fff;
+    --baseText: #fff;
     --baseBackground: #000;
   }
 }
